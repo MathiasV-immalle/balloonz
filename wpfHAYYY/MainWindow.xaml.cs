@@ -25,6 +25,7 @@ namespace wpfHAYYY
         int y = 100;
         int x1 = 100;
         int x2 = 150;
+
         public MainWindow()
         {
             InitializeComponent();
