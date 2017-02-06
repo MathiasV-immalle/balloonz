@@ -1,0 +1,22 @@
+﻿<Window x:Class="wpfHAYYY.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfHAYYY"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517"/>
+        <Button x:Name="MoveUpButton" Content="MoveUp" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="393,237,0,0" Click="MoveUpButton_Click"/>
+        <Button x:Name="GrowButton" Content="Grow" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,262,0,0" Click="GrowButton_Click"/>
+        <Button x:Name="MoveDownButton" Content="MoveDown" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="393,287,0,0" Click="MoveDownButton_Click"/>
+        <Button x:Name="MoveLeftButton" Content="MoveLeft" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="352,262,0,0" Click="MoveLeftButton_Click"/>
+        <Button x:Name="MoveRightButton" Content="MoveRight" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="432,262,0,0" Click="MoveRightButton_Click"/>
+        <Button x:Name="ShrinkButton" Content="Shrink" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,287,0,0" Click="GrowButton_Click"/>
+
+    </Grid>
+</Window>
